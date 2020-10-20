@@ -1,20 +1,33 @@
-body {
-  /* padding-top: 95px;
-  min-height: 1000px;
-  padding-left: 150px;
-  padding-right: 115px; */
-}
-
-
-
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 90vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
 }
 
+#about-image {
+  margin-top: 80px
+}
+
+.i-container {
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+  padding-top: 10%;
+  margin: auto;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+}
 
 img {
   width: 100%;
@@ -23,5 +36,4 @@ img {
 
 .work-img {
   width: 600px;
-
 }

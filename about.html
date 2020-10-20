@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>About Me</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Matthew Corpus">
+  <meta name="description" content="About Matthew">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="position.css">
+  <title>About Matthew</title>
+</head>
+
   <body>
-    <img src="headshot_4.jpg" alt="Matthew Corpus" width="15%" height="15%">
+
+    <nav class="navbar fixed-top navbar-expand navbar-light bg-white">
+      <div id="navigation" class="container">
+        <a href="index.html" class="navbar-brand mr-auto"><h3>matthew corpus</h3></a>
+        <div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="about.html" class="nav-link">about</a></li>
+            <li class="nav-item"><a href="work.html" class="nav-link">work</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div id="about-image" class="row vertical-center">
+        <div class="col-md-6">
+          <h1>Yeah, I need a new headshot I don't like this one</h1>
+        </div>
+
+        <div class="col-md-6">
+          <img src="headshot_4.jpg" alt="Matthew's Headshot'">
+        </div>
+      </div>
+
+      <div id="info" class="row my-3">
+        <div class="container-fluid mb-3">
+          <h2>ayo we gon get it right hurr its da remiiix</h2>
+          <p>Currently a senior at UC Irvine (zot zot!) majoring in Informatics,
+          specializing in Human-Computer Interaction. In my free time I'm either
+          wiggling in front of a mirror, learning a new song on the guitar, or making
+          magic at the Happiest Place on Earth. (jk I don't do that anymore I got
+          fired)</p>
+        </div>
+      </div>
+
+      <footer class="container-fluid text-center mt-5">
+        <p class="secondary-text"><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Pssst, here's my resume</a></p>
+      </footer>
+    </div>
+
   </body>
 </html>

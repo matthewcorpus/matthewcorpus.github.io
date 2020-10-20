@@ -1,8 +1,13 @@
 body {
   font-family: "Roboto";
-  font-size:
   color: black;
+}
 
+.secondary-text {
+  font-family: "Roboto";
+  font-weight: lighter;
+  color: black;
+  margin-top: -10px;
 }
 
 h1 {
@@ -16,4 +21,6 @@ h2 {
 
 h3 {
   font-family: "Archivo Black";
+  margin-top: 8px;
+  color: black;
 }

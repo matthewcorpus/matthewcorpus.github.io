@@ -5,6 +5,8 @@ body {
   padding-right: 115px; */
 }
 
+
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -19,12 +21,7 @@ img {
   height: auto;
 }
 
-
 .work-img {
   width: 600px;
 
-}
-
-.work-text {
-  text-align: center;
 }
